@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 
-h1{
+h1 span{
     font-family: "Whisper", cursive;
+}
+
+#dias_restantes{
+    color: greenyellow;
 }

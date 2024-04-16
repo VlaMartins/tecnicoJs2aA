@@ -1,10 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
 
 h1 span{
-    font-family: "Whisper", cursive;
-    color: greenyellow;
+    color: #adff2f;
 }
 
 #dias_restantes{
+    color: greenyellow;
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
 
+#horario{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+}
+
+.textoclaro{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
 }
